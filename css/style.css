@@ -41,4 +41,26 @@ body{
 }
 #tools{
   font-size: 2.5vw;
+
+}
+.elements_dis_word{
+  text-align: center;
+  color: black;
+  padding-top: 1vw;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+}
+.in_elements{
+  margin: 0 auto;
+  width: 27vw;
+  height: 27vw;
+  background-color: #FFFAFA;
+  border-radius: 2vw;
+}
+.element_dis{
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  padding: 2vw;
+  font-size: 2vw;
 }
