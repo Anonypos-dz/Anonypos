@@ -74,7 +74,8 @@ body{
   height: 27vw;
   border-radius: 2vw;
   border-width: 0px;
-  background-color: rgba(21, 190, 233, 0.2);
+  /*background-color: rgba(21, 190, 233, 0.2);*/
+  background-color: #191970;
 }
 .element_dis{
   text-align: center;
