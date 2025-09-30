@@ -7,6 +7,7 @@ body{
   padding-bottom: 2vw;
 }
 #main{
+  cursor: pointer;
   background-color: white;
   height: 7vw;
   width: 100vw;
@@ -41,6 +42,7 @@ body{
 }
 .elements_title{
   font-size: 3vw;
+  text-align: center;
 }
 .elements{
   background: black;
@@ -97,4 +99,7 @@ body{
 }
 .go_btn:hover{
   background-color: rgba(154, 159, 234, 0.69);
+}
+#games{
+  font-size: 3vw;
 }
