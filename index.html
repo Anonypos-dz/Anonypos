@@ -9,10 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=construction" />
   </head>
-  <script src="src/js/script.js"></script>
   <script src="https://kit.fontawesome.com/902a3215c0.js" crossorigin="anonymous"></script>
   <body>
-    <div id="main" onclick="window.open('https://anonypos-dz.github.io/Anonypos','_self')">
+    <div id="main">
       <div id="main_title">
         <h1 style="text-align: center; margin: 0; color: black; font-size: 3vw;"><span id="word_0">Anonypos</span>, where you will find <span id="word_1">anything</span>.</h1>
         <p style="text-align: center; font-size: 1vw; color: black;">You can find anything here! Tools, Music, Games, Movies.... And it's for <span style="color: green;">FREE!</span></p>
@@ -30,7 +29,7 @@ construction
     <p class="element_dis">Here you will find all sorts of tools for editing, programming, hacking....</p>
     <p class="element_dis">So take a look and enjoy!</p>
   </div>
-  <button class="go_btn" onclick="window.open('./tools/')">Go to Tools</button>
+  <button class="go_btn" id="tools_btn">Go to Tools</button>
 </div>
 <p class="elements_title">Games <i class="fa-solid fa-gamepad" id="games"></i></p>
 <div class="elements">
@@ -39,7 +38,25 @@ construction
     <p class="element_dis">Find your favorite game for free!</p>
     <p class="element_dis">And the best thing, you can download the crack without any risk :)</p>
   </div>
-  <button class="go_btn" onclick="window.open('./games/')">Go to Games</button>
+  <button class="go_btn" id="games_btn">Go to Games</button>
 </div>
+<p class="elements_title">Music <i class="fa-solid fa-music"></i></p>
+<div class="elements">
+  <h2 class="elements_dis_word">Description</h2>
+  <div class="in_elements">
+    <p class="element_dis">Listen and download your favorite music, and guess what?</p>
+    <p class="element_dis">It's for FREE!!!</p>
+  </div>
+  <button class="go_btn" id="music_btn">Go to Music</button>
+</div>
+<p class="elements_title">Movies<i class="fa-solid fa-film"></i></p>
+<div class="elements">
+  <h2 class="elements_dis_word">Description</h2>
+  <div class="in_elements">
+    <p class="element_dis">Find and download the lastes movies of all sorts!</p>
+  </div>
+  <button class="go_btn" id="movies_btn">Go to Movies</button>
+</div>
+<script src="src/js/script.js"></script>
 </body>
 </html>
