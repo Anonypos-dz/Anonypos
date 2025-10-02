@@ -16,3 +16,13 @@ for (const [id, url] of Object.entries(pages)) {
         window.open(url, "_self");
     };
 }
+
+if (/Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent)) {
+  const css = document.getElementById("page_css");
+  css.href = "./src/css/style_mobile.css";
+  document.getElementById("sub_title").remove();
+} else {
+  const css = document.getElementById("page_css");
+  css.href = "./src/css/style.css";
+
+}
